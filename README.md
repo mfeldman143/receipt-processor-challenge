@@ -1,3 +1,58 @@
+# Receipt Processor Backend Challenge by Michael Feldman
+Hello! My name is Michael and I appreciate the opportunity to undertake the Backend Engineer challenge for Fetch Rewards.
+
+Introduction
+This project is an implementation of the Receipt Processor as described in the Backend Exercise provided by Fetch Rewards.
+
+## Setup and Installation
+1. Ensure you have Go and Docker installed.
+2. Install the required Go module with: go get github.com/google/uuid
+3. Clone the repository.
+4. Navigate to the project directory.
+5. Build the Docker image using: docker build -t receipt-processor-go .
+6. Run the Docker container using:
+7. Access the API on [http://localhost:8080](http://localhost:8080).
+
+## API Endpoints
+
+- **Process Receipts**: 
+- Method: `POST`
+- Path: `/receipts/process`
+- Description: Accepts a JSON receipt and returns an ID for the receipt.
+
+- **Get Points**: 
+- Method: `GET`
+- Path: `/receipts/{id}/points`
+- Description: Accepts an ID and returns the number of points awarded for the associated receipt.
+
+## Thoughts on the Exercise
+
+The take-home exercise approach is appreciated as it allows me to showcase my skills in a more relaxed environment. I agree that this method can indeed help in evaluating the real skills of a candidate, rather than solely relying on the resume.
+
+## Location and Availability
+
+I am currently located in Madison, Wisconsin. Upon receiving an offer, I am ready to start within the timeframe mentioned.
+
+## Submission
+
+I have submitted my exercise through the provided Greenhouse link.
+
+## Further Discussions
+
+I look forward to any feedback on the code and am eager to discuss my implementation in further stages of the interview process.
+
+## Contact
+
+If there are any questions or if you would like to discuss the project further, I am available for a Zoom call at your convenience.
+
+Thank you and I eagerly await the next steps in the process!
+
+Kind regards,
+Michael
+
+
+
+
 # Receipt Processor
 
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
